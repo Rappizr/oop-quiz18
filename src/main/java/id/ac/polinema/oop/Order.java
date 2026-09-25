@@ -40,6 +40,7 @@ public class Order {
         return total;
     }
 
+    
     public double getFinalTotal() {
         double total = getTotal();
         if (total >= 100000.0) {
